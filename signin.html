@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Delivery – Sign In</title>
+  <style>
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 750px;
+      margin: 0;
+    }
+
+    .card {
+      background: #fff;
+      padding: 28px;
+      width: 320px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      margin-bottom: 16px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .input-box {
+      margin-bottom: 14px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    input {
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #ff6b35;
+    }
+
+    .btn {
+      margin-top: 10px;
+      width: 100%;
+      background: #ff6b35;
+      padding: 12px;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .small {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: center;
+      color: #555;
+    }
+
+    .small a {
+      color: #ff6b35;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Sign In</h2>
+
+    <div class="input-box">
+      <label>Email</label>
+      <input type="email" type="tel" placeholder="Enter your email or Phone number">
+    </div>
+
+    <div class="input-box">
+      <label>Password</label>
+      <input type="password" placeholder="Enter your password">
+    </div>
+
+    <button class="btn">Login</button>
+
+    <div class="small">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+
+</body>
+</html>
