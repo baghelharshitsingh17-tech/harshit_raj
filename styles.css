@@ -370,16 +370,15 @@ html{
   }
 }
 
-  /* Fullscreen video section */
-/* VIDEO SECTION — FIXED */
+  
 .full-video-section {
   position: relative;
-  width: 60%;           /* Adjust width (smaller than before) */
-  height: 350px;        /* Adjust video height */
+  width: 60%;           
+  height: 350px;        
   overflow: hidden;
-  margin: 40px auto;    /* Centers horizontally */
+  margin: 40px auto;   
   padding: 0;
-  border-radius: 12px;  /* Optional: rounded corners */
+  border-radius: 12px;  
 }
 
 .full-video-section .bg-video {

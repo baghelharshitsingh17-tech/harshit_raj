@@ -90,8 +90,12 @@
             <div style="font-weight:700">Margherita Pizza</div>
             <div class="small">Classic cheese, fresh basil</div>
             <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
-              <div class="small">₹249</div>z
-              <a class="btn" href="#">Add</a>
+              <div class="small">₹249</div>
+              <!-- <a class="btn" href="#">Add</a> -->
+               <button id="minus" style="background-color:#ff6b35; border-radius: 3px; ">-</button>
+          <span id="qty">1</span>
+          <button id="plus"style="background-color:#ff6b35; border-radius: 3px;">+</button>
+          <p style="color: #6b7280;">Total: ₹<span id="total">249</span></p>
             </div>
           </div>
         </div>
@@ -103,7 +107,11 @@
             <div class="small">Aromatic saffron rice</div>
             <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
               <div class="small">₹339</div>
-              <a class="btn" href="#">Add</a>
+              <!-- <a class="btn" href="#">Add</a> -->
+               <button id="minus_1" style="background-color:#ff6b35; border-radius: 3px;">-</button>
+          <span id="qty_1">1</span>
+          <button id="plus_1"style="background-color:#ff6b35; border-radius: 3px;">+</button>
+          <p>Total: ₹<span id="total_1">339</span></p>
             </div>
           </div>
         </div>
@@ -169,6 +177,12 @@
           <h3>Masala Dosa</h3>
           <p class="small">Crispy dosa with spiced potato filling</p>
           <div class="price-row"><div class="small">₹99</div><a class="btn" href="#">Add</a></div>
+          <!-- <button id="minus">-</button>
+          <span id="qty">1</span>
+          <button id="plus">+</button>
+          <p>Total: ₹<span id="total">99</span></p> -->
+          
+
         </div>
 
         <div class="card">
@@ -215,7 +229,7 @@
   </main>
 
 
-  <!-- Fullscreen Video Section -->
+ 
 <section class="full-video-section">
   <video autoplay muted loop playsinline class="bg-video">
     <source src="vedio for capestone copy.mp4" type="video/mp4">
@@ -261,7 +275,7 @@
     <div style="font-weight:700; margin-bottom:6px; color: aliceblue;">Help & Support</div>
     <div style="font-size:14px; color:#8a1e1e;">
       <div>Email: support@foodify.com</div>
-      <div>Phone: +91 98765 43210</div>
+      <div>Phone: +91 7999702013</div>
       <div>Timings: 9 AM – 9 PM</div>
     </div>
   </div>
@@ -279,4 +293,5 @@
 
   
 </body>
+<script src="style.js"> </script>
 </html>
